@@ -3,7 +3,7 @@ const express = require("express");
 const mongoose = require('mongoose')
 const BodyParser = require('body-parser')
 const cors = require('cors')
-const { Holdingsmodel } = require("../backend/models/Holdingsmodel");
+const { Holdingsmodel } = require("./models/Holdingsmodel");
 const { Positionsmodel } = require('./models/Positionsmodel')
 const { Ordersmodel } = require('./models/Ordersmodel')
 
@@ -217,9 +217,20 @@ app.post('/newOrder', async (req, res) => {
 
 
 
-app.listen(PORT, () => {
-    console.log("app started")
-    mongoose.connect(url)
-    console.log('DB connected')
-})
+// app.listen(PORT, () => {
+//     console.log("app started")
+//     mongoose.connect(url)
+//     console.log('DB connected')
+// })
+
+app.listen(PORT, async () => {
+    console.log("app started");
+
+    try {
+        await mongoose.connect(url);
+        console.log("DB connected");
+    } catch (error) {
+        console.error("DB connection error:", error);
+    }
+});
 
