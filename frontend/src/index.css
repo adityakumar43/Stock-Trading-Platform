@@ -16,6 +16,14 @@ code {
   margin-left: 40px;
 }
 
+.custom-link{
+  color: black;
+}
+
+.custom-link:hover{
+  color: blue;
+}
+
 #supportWrapper a{
   margin-right: 150px;
 }

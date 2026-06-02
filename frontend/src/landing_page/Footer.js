@@ -1,54 +1,55 @@
 import React from 'react';
+import '../index.css'
 function Footer() {
     return (
         <footer className="border-top mt-5" style={{backgroundColor:"#FBFBFB"}}>
             <div className='container'>
                 <div className='row mt-5'>
-                    <div className='col'>
+                    <div className='col-3'>
                     <img src='https://zerodha.com/static/images/logo.svg' style={{width:"75%"}}/>
-                    <p className="mt-3" style={{fontSize:"12px"}}>&copy; 2010 - 2026, Zerodha Broking Ltd. All rights reserved.</p>
+                    <p className="mt-3" style={{fontSize:"12px"}}>&copy; 2010 - 2026, Zerodha Broking Ltd.<br/>All rights reserved.</p>
                 </div>
                 <div className='col'>
                     <p className="fw-semibold" style={{fontSize:"20px"}}>Account</p>
-                    <a href='#'className="d-block mb-2" style={{textDecoration:"none"}}>Open demat account</a><br/>
-                    <a href='#'className="d-block"style={{textDecoration:"none"}}>Minor demat account</a><br/>
-                    <a href='#'className="d-block"style={{textDecoration:"none"}}>NRI demat account</a><br/> 
-                    <a href='#'className="d-block"style={{textDecoration:"none"}}>Commodity</a><br/>
-                    <a href='#'className="d-block"style={{textDecoration:"none"}}>Dematerialisation</a><br/>
-                    <a href='#'className="d-block"style={{textDecoration:"none"}}>Fund transfer</a><br/>
-                    <a href='#'className="d-block"style={{textDecoration:"none"}}>MTF</a><br/>
-                    <a href='#'className="d-block"style={{textDecoration:"none"}}>Referral program</a><br/>
+                    <a href='#'className="d-block mb-3 custom-link" style={{textDecoration:"none"}}>Open demat account</a>
+                    <a href='#'className="d-block mb-3 custom-link"style={{textDecoration:"none"}}>Minor demat account</a>
+                    <a href='#'className="d-block mb-3 custom-link"style={{textDecoration:"none"}}>NRI demat account</a>
+                    <a href='#'className="d-block mb-3 custom-link"style={{textDecoration:"none"}}>Commodity</a>
+                    <a href='#'className="d-block mb-3 custom-link"style={{textDecoration:"none"}}>Dematerialisation</a>
+                    <a href='#'className="d-block mb-3 custom-link"style={{textDecoration:"none"}}>Fund transfer</a>
+                    <a href='#'className="d-block mb-3 custom-link"style={{textDecoration:"none"}}>MTF</a>
+                    <a href='#'className="d-block custom-link"style={{textDecoration:"none"}}>Referral program</a>
                 </div>
                 <div className='col'>
                     <p className="fw-semibold" style={{fontSize:"20px"}}>Support</p>
-                    <a href='#'className="d-block"style={{textDecoration:"none"}}>Contact us</a><br/>
-                    <a href='#'className="d-block"style={{textDecoration:"none"}}>Support portal</a><br/>
-                    <a href='#'className="d-block"style={{textDecoration:"none"}}>How to file a complaint?</a><br/> 
-                    <a href='#'className="d-block"style={{textDecoration:"none"}}>Status of your complaints</a><br/>
-                    <a href='#'className="d-block"style={{textDecoration:"none"}}>Bulletin</a><br/>
-                    <a href='#'className="d-block"style={{textDecoration:"none"}}>Circular</a><br/>
-                    <a href='#'className="d-block"style={{textDecoration:"none"}}>Z-Connect blog</a><br/>
-                    <a href='#'className="d-block"style={{textDecoration:"none"}}>Downloads</a><br/>
+                    <a href='#'className="d-block mb-3 custom-link"style={{textDecoration:"none"}}>Contact us</a>
+                    <a href='#'className="d-block mb-3 custom-link"style={{textDecoration:"none"}}>Support portal</a>
+                    <a href='#'className="d-block mb-3 custom-link"style={{textDecoration:"none"}}>How to file a complaint?</a>
+                    <a href='#'className="d-block mb-3 custom-link"style={{textDecoration:"none"}}>Status of your complaints</a>
+                    <a href='#'className="d-block mb-3 custom-link"style={{textDecoration:"none"}}>Bulletin</a>
+                    <a href='#'className="d-block mb-3 custom-link"style={{textDecoration:"none"}}>Circular</a>
+                    <a href='#'className="d-block mb-3 custom-link"style={{textDecoration:"none"}}>Z-Connect blog</a>
+                    <a href='#'className="d-block custom-link"style={{textDecoration:"none"}}>Downloads</a>
                 </div>
                 <div className='col'>
                     <p className="fw-semibold"style={{fontSize:"20px"}}>Company</p>
-                    <a href='#'className="d-block"style={{textDecoration:"none"}}>About</a><br/>
-                    <a href='#'className="d-block"style={{textDecoration:"none"}}>Philosophy</a><br/>
-                    <a href='#'className="d-block"style={{textDecoration:"none"}}>Press & media</a><br/> 
-                    <a href='#'className="d-block"style={{textDecoration:"none"}}>Careers</a><br/>
-                    <a href='#'className="d-block"style={{textDecoration:"none"}}>Zerodha Cares (CSR)</a><br/>
-                    <a href='#'className="d-block"style={{textDecoration:"none"}}>Zerodhs.tech</a><br/>
-                    <a href='#'className="d-block"style={{textDecoration:"none"}}>Open source</a><br/>
+                    <a href='#'className="d-block mb-3 custom-link"style={{textDecoration:"none"}}>About</a>
+                    <a href='#'className="d-block mb-3 custom-link"style={{textDecoration:"none"}}>Philosophy</a>
+                    <a href='#'className="d-block mb-3 custom-link"style={{textDecoration:"none"}}>Press & media</a>
+                    <a href='#'className="d-block mb-3 custom-link"style={{textDecoration:"none"}}>Careers</a>
+                    <a href='#'className="d-block mb-3 custom-link"style={{textDecoration:"none"}}>Zerodha Cares (CSR)</a>
+                    <a href='#'className="d-block mb-3 custom-link"style={{textDecoration:"none"}}>Zerodhs.tech</a>
+                    <a href='#'className="d-block custom-link"style={{textDecoration:"none"}}>Open source</a>
                 </div>
                 <div className='col'>
                     <p className="fw-semibold" style={{fontSize:"20px"}}>Quick links</p>
-                    <a href='#'className="d-block"style={{textDecoration:"none"}}>Upcoming IPOs</a><br/>
-                    <a href='#'className="d-block"style={{textDecoration:"none"}}>Brokerage charges</a><br/>
-                    <a href='#'className="d-block"style={{textDecoration:"none"}}>Market holidays</a><br/> 
-                    <a href='#'className="d-block"style={{textDecoration:"none"}}>Economic calendar</a><br/>
-                    <a href='#'className="d-block"style={{textDecoration:"none"}}>Calculators</a><br/>
-                    <a href='#'className="d-block"style={{textDecoration:"none"}}>Markets</a><br/>
-                    <a href='#'className="d-block"style={{textDecoration:"none"}}>Sectors</a><br/>
+                    <a href='#'className="d-block mb-3 custom-link"style={{textDecoration:"none"}}>Upcoming IPOs</a>
+                    <a href='#'className="d-block mb-3 custom-link"style={{textDecoration:"none"}}>Brokerage charges</a>
+                    <a href='#'className="d-block mb-3 custom-link"style={{textDecoration:"none"}}>Market holidays</a>
+                    <a href='#'className="d-block mb-3 custom-link"style={{textDecoration:"none"}}>Economic calendar</a>
+                    <a href='#'className="d-block mb-3 custom-link"style={{textDecoration:"none"}}>Calculators</a>
+                    <a href='#'className="d-block mb-3 custom-link"style={{textDecoration:"none"}}>Markets</a>
+                    <a href='#'className="d-block custom-link"style={{textDecoration:"none"}}>Sectors</a>
                 </div>
                 </div>
                 <div className="mt-5 text-muted" style={{fontSize:"12px"}}>
