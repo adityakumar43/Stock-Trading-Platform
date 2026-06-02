@@ -5,8 +5,8 @@ function Hero() {
             <div className='row text-center'>
                 <img src='images/homeHero.png' alt='homeHero' className='mb-5'/>
                 <h3 className='mt-5'>Invest in everything</h3>
-                <p>One platform to invest in stocks, derivatives, mutual funds, ETFs, bonds, and more.</p>
-                <button className='p-2 btn btn-primary fs-5' style={{width:"20%", margin:"0 auto"}}>Sign Up for Free</button>
+                <p className='fs-5'>One platform to invest in stocks, derivatives, mutual funds, ETFs, bonds, and more.</p>
+                <button className='p-2 btn btn-primary fs-5 mt-4' style={{width:"20%", margin:"0 auto"}}>Sign Up for Free</button>
             </div>
         </div>
      );
